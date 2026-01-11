@@ -7,17 +7,19 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/lab04-photo-vue/',
   plugins: [
     vue(),
     legacy()
   ],
+  build: {
+    outDir: path.resolve(__dirname, '../../docs/lab04-photo-vue'),
+    emptyOutDir: true
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
   },
-  test: {
-    globals: true,
-    environment: 'jsdom'
-  }
 })
+

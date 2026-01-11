@@ -14,8 +14,9 @@ import './theme/variables.css';
 // CHANGE: Call the element loader before the createApp() call
 defineCustomElements(window);
 
-const app = createApp(App).use(IonicVue).use(router);
+const app = createApp(App)
+  .use(IonicVue)
+  .use(router);
 
-router.isReady().then(() => {
-  app.mount('#app');
-});
+app.mount('#app');
+
