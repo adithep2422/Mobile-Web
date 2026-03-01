@@ -1,12 +1,12 @@
 // นำมาจากหน้าโครงการ firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyD2ida20kb4Vr2uUqbgzwUWd6SlPLV9Kec",
-  authDomain: "ionic-expense-916b6.firebaseapp.com",
-  projectId: "ionic-expense-916b6",
-  storageBucket: "ionic-expense-916b6.firebasestorage.app",
-  messagingSenderId: "997947717319",
-  appId: "1:997947717319:android:27c99fd803f3b2f20170e2",
-  measurementId: "G-MCD410PLML"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 import { initializeApp } from "firebase/app";
